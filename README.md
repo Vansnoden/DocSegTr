@@ -52,6 +52,7 @@ python tools/train_net_custom.py \
     --num-gpus 1 \
     MODEL.WEIGHTS work_dir/.../model_final.pth
 ```
+```python tools/train_net_custom.py --config-file configs/SOTR/R_101_DCN_doc.yaml --eval-only --num-gpus 1 MODEL.WEIGHTS models/model_final.pth```
 
 ### Step 6: For training the model from scratch, use this magic command for training on 'n' GPUs:
 
