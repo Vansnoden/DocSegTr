@@ -10,8 +10,8 @@ MODEL:
     DEFORM_MODULATED: True
     DEFORM_INTERVAL: 3
 DATASETS:
-  TRAIN: ("publaynet_train",)
-  TEST: ("publaynet_val",)
+  TRAIN: ("publaynet_train",) # ("E:/downloaded_docs/publaynet/publaynet/train",) #
+  TEST: ("publaynet_val",) # ("E:/downloaded_docs/publaynet/publaynet/val",) #
 SOLVER:
   STEPS: (210000, 250000)
   MAX_ITER: 300000

@@ -61,6 +61,9 @@ python tools/train_net_custom.py \
 python tools/train_net_custom.py \
     --config-file configs/SOTR/R_101_DCN_doc.yaml \
     --num-gpus 2
+
+# online vesion
+python tools/train_net_custom.py --config-file configs/SOTR/R_101_DCN_doc.yaml --num-gpus 1
 ```
 ### Step 7: For visualizing qualitative result predictions on PubLayNet, use the following:
 

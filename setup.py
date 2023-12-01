@@ -87,3 +87,17 @@ setup(
     ext_modules=get_extensions(),
     cmdclass={"build_ext": torch.utils.cpp_extension.BuildExtension},
 )
+
+
+# setup( 
+#     name='adet', 
+#     version='0.1', 
+#     description='adet', 
+#     author='John Doe', 
+#     author_email='jdoe@example.com', 
+#     packages=['adet'], 
+#     # install_requires=[ 
+#     #     'numpy', 
+#     #     'pandas', 
+#     # ], 
+# ) 

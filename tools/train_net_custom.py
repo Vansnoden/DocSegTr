@@ -24,6 +24,7 @@ from adet.data.dataset_mapper import DatasetMapperWithBasis
 from adet.config import get_cfg
 from adet.checkpoint import AdetCheckpointer
 from adet.evaluation import TextEvaluator
+from adet.modeling.sotr import SOTR
 
 from detectron2.data.datasets import register_coco_instances
 from detectron2.data.datasets.coco import convert_to_coco_json
